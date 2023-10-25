@@ -57,26 +57,26 @@ Admin Panel: İstatistikler, yönetim panelleri.
 
 ## 4. Klasör & Dosya Yapısı:
 
-/student-question-asking-and-answering-app
-|-- /client (Frontend)
-|   |-- /src
-|   |   |-- /components
-|   |   |   |-- /auth (Login, Register, PasswordReset)
-|   |   |   |-- /questions (QuestionList, QuestionDetail, NewQuestion)
-|   |   |   |-- /notifications
-|   |   |   |-- /admin
-|   |   |   |-- /shared (Header, Footer, Sidebar)
-|   |   |-- /redux (actions, reducers, store)
-|   |   |-- /styles (globalStyles, theme)
-|   |   |-- App.js (Main component with React Router)
-|   |   |-- index.js (Main entry point, where React DOM renders)
-|-- /server (Backend)
-|   |-- /models (User, Question)
-|   |-- /routes (authRoutes, questionRoutes, adminRoutes)
-|   |-- /controllers (authController, questionController, adminController)
-|   |-- /middleware (authMiddleware, errorMiddleware)
-|   |-- server.js (Express app setup and configurations)
-|   |-- index.js (Main entry point, where the server is started)
+/student-question-asking-and-answering-app <br><br>
+|-- /client (Frontend)  <br><br>
+|   |-- /src  <br><br>
+|   |   |-- /components  <br><br>
+|   |   |   |-- /auth (Login, Register, PasswordReset)  <br><br>
+|   |   |   |-- /questions (QuestionList, QuestionDetail, NewQuestion) <br><br>
+|   |   |   |-- /notifications  <br><br>
+|   |   |   |-- /admin  <br><br>
+|   |   |   |-- /shared (Header, Footer, Sidebar)  <br><br>
+|   |   |-- /redux (actions, reducers, store)  <br><br>
+|   |   |-- /styles (globalStyles, theme)  <br><br>
+|   |   |-- App.js (Main component with React Router)  <br><br>
+|   |   |-- index.js (Main entry point, where React DOM renders)  <br><br>
+|-- /server (Backend)  <br><br>
+|   |-- /models (User, Question)  <br><br>
+|   |-- /routes (authRoutes, questionRoutes, adminRoutes)  <br><br>
+|   |-- /controllers (authController, questionController, adminController)  <br><br>
+|   |-- /middleware (authMiddleware, errorMiddleware)  <br><br> 
+|   |-- server.js (Express app setup and configurations)  <br><br> 
+|   |-- index.js (Main entry point, where the server is started) <br><br>
 
 
 ## 5. Geliştirme Adımları:
